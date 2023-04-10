@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="loader hide">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="container">
+        <!-- <h2 class="login">Login Form</h2> -->
+        <form action="" class="form ">
+            <p>Hello! Write your e-mail:</p>
+            <img class="imgForm" src="/img/mail-outline.svg" alt="">
+            <input required placeholder="E-mail..." type="email" name="email">
+            <p>And now your password:</p>
+            <img class="imgForm" src="/img/lock-closed-outline.svg" alt="">
+            <div class="password">
+                <input id="password" required placeholder="Password..." type="password" name="password">
+                <a href="#" id="showHideBtn" class="password-control"></a>
+            </div>
+            <p class="test" >Thanks, you can enter</p>
+            <button id="button" class="button">Begin journey</button>
+        </form>
+    </div>
+    <div class="profile hide">
+        <form action="" class="profile-form">
+            <p class="profile-header">Tell us about yourself!</p>
+            <div class="profile-box">
+                <p class="box">Name:</p>
+                <input class="box-input" required placeholder="" type="text" name="name">
+            </div>
+            <div class="profile-box">
+                <p class="box box1">Age:</p>
+                <input class="box-input input-number" required placeholder="" type="number" name="age">
+            </div>
+            <div class="profile-box">
+                <p class="box">Hobby:</p>
+                <input class="box-input" required placeholder="" type="text" name="hobby">
+            </div>
+            <button class="button-profile">Send</button>
+        </form>
+    </div>
+    <script src="/dist/js/bundle.js"></script>
+</body>
+
+</html>

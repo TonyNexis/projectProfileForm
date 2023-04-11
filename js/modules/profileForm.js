@@ -58,7 +58,7 @@ const profileForms = () => {
       }
 
       infoWindow();
-    }, 4000);
+    }, 3000);
 
     return profileObject;
     });
